@@ -24,7 +24,9 @@ sudo mysql -uroot
 
 4. Open the IP of server / localhost in browser. Add the database details and you are good to go.
 
-## Docker Setup - Requires Docker & Docker-Compose Installed
+## Docker Setup
+
+> Requires Docker & Docker-Compose Installed
 
 1. Clone this Repository
 ```
