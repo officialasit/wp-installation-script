@@ -2,7 +2,7 @@
 
 This is a script that will help you to install the latest wordpress on a linux machine / server.
 
-## Installation Steps 
+## Installation Steps (Without Docker)
 
 1. Clone this Repository
 ```
@@ -24,14 +24,14 @@ sudo mysql -uroot
 
 4. Open the IP of server / localhost in browser. Add the database details and you are good to go.
 
-## Docker Setup
+## Installation Steps (Using Docker)
 
 > Requires Docker & Docker-Compose Installed
 
 1. Clone this Repository
 ```
 git clone https://github.com/officialasit/wp-installation-sript.git
-wp-installation-sript
+cd wp-installation-sript
 ```
 
 2. Start the Containers
