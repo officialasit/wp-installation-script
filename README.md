@@ -19,6 +19,8 @@ cd wp-installation-sript
 ```
 sudo mysql -uroot
 > CREATE DATABASE wordpress;
+> grant all privileges on wordpress.* TO 'wp_user
+'@'%' identified by 'PASSWORD_HERE';
 > quit
 ```
 
